@@ -186,8 +186,6 @@ int main(int argc, char* argv[])
         ImGui_ImplSDL3_NewFrame();
         ImGui::NewFrame();
 
-        ImGui::ShowDemoWindow();
-
         // Draw
         ImGui::Render();
         SDL_SetRenderDrawColor(renderer, 128, 128, 128, 255);
